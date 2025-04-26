@@ -1,4 +1,4 @@
-# Ex no:2(A) Applications of Queue – FCFS
+# Ex no:2(E) Applications of Queue – FCFS
 ## DATE:3/3/25
 ## AIM:
 To write a C function to calculate the turnaround time of each process given their burst time and waiting time in First Come first Serve scheduling algorithm.
@@ -21,11 +21,10 @@ RegisterNumber: 212223220004
 */
 ```
 ```
-/*#include<stdio.h> 
+#include<stdio.h> 
 #define SIZE 5
 int items[SIZE];
 int front =-1,rear =-1;
-*/
 int deQueue()
 {
 int element; 
@@ -52,7 +51,9 @@ return element;
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/591a42d0-74d3-4d27-87d2-81a1e1ae1ee1)
+![image](https://github.com/user-attachments/assets/a4005052-7622-4f0a-ba23-8223cbaf331e)
+
+
 
 
 ## Result:
